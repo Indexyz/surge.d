@@ -92,6 +92,27 @@ type Notification = {
     post(title: string, subtitle: string, body: string)
 }
 
+type Network = {
+    /**
+     * The Domain Name System list
+     */
+    dns: string[]
+
+    /**
+     * Current wifi info
+     */
+    wifi: NetworkWifi
+}
+
+type NetworkWifi = {
+    /**
+     * The ssid of current wifi
+     */
+    ssid: string
+}
+
 declare const $notification: Notification
 
 declare const $request: IncomingRequest | OutcomingRequest
+
+declare const $network: Network
