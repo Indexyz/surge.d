@@ -14,9 +14,9 @@ declare class $utils {
  * Outbound Mode
  */
 declare enum OutboundMode {
-    Direct = "direct",
-    GlobalProxy = "global-proxy",
-    Rule = "rule"
+    Direct = 'direct',
+    GlobalProxy = 'global-proxy',
+    Rule = 'rule'
 }
 
 /**

@@ -1,0 +1,19 @@
+{
+  "name": "surge.d",
+  "version": "1.0.0",
+  "description": "NSSurge type define",
+  "main": "index.js",
+  "repository": "git@github.com:Indexyz/surge.d.git",
+  "author": "Indexyz <jiduye@gmail.com>",
+  "license": "unlicense",
+  "private": false,
+  "scripts": {
+      "lint": "eslint --fix --ext .ts types"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "typescript": "^3.6.4"
+  }
+}

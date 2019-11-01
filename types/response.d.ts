@@ -41,7 +41,7 @@ type OutcomingRequest = {
     /**
      * Response HTTP status code
      */
-    status: number  
+    status: number
 
     /**
      * Request HTTP Headers
