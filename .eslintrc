@@ -163,7 +163,6 @@
         "require-yield": "error",
         "rest-spread-spacing": "error",
         "symbol-description": "error",
-        "template-curly-spacing": "error",
-        "no-console": "warn"
+        "template-curly-spacing": "error"
     }
 }
